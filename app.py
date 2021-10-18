@@ -23,9 +23,9 @@ def main():
         res = compare_texts(text_a, text_b)
         
         if res is True:
-            st.write("The texts are the same")
+            st.header("The texts are the same")
         else:
-            st.write("The texts are not the same")
+            st.header("The texts are not the same")
 
 
 def compare_texts(txt_a, txt_b):
